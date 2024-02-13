@@ -1,22 +1,22 @@
 import React from "react";
-import javascript from "../../public/assets/skills/javascript.png";
-import python from "../../public/assets/skills/python.png";
-import react from "../../public/assets/skills/react1.png";
-import redux from "../../public/assets/skills/redux.png";
-import sql from "../../public/assets/skills/sql.png";
-import html from "../../public/assets/skills/html.png";
-import mongodb from "../../public/assets/skills/mongodb.png";
-import typescript from "../../public/assets/skills/typescript.png";
-import reactquery from "../../public/assets/skills/reactquery.png";
-import nextjs from "../../public/assets/skills/nextjs-icon-svgrepo-com.png";
-import css from "../../public/assets/skills/css.png";
-import node from "../../public/assets/skills/node.png";
-import docker from "../../public/assets/skills/docker1.png";
-import redis from "../../public/assets/skills/redis.png";
-import api from "../../public/assets/skills/api.png";
-import git from "../../public/assets/skills/git.png";
-import express from "../../public/assets/skills/express.png";
-import aws from "../../public/assets/skills/aws.png";
+import javascript from "@/public/static/images/javascript.png";
+import python from "@/public/static/images/python.png";
+import react from "@/public/static/images/react1.png";
+import redux from "@/public/static/images/redux.png";
+import sql from "@/public/static/images/sql.png";
+import html from "@/public/static/images/html.png";
+import mongodb from "@/public/static/images/mongodb.png";
+import typescript from "@/public/static/images/typescript.png";
+import reactquery from "@/public/static/images/reactquery.png";
+import nextjs from "@/public/static/images/nextjs-icon-svgrepo-com.png";
+import css from "@/public/static/images/css.png";
+import node from "@/public/static/images/node.png";
+import docker from "@/public/static/images/docker1.png";
+import redis from "@/public/static/images/redis.png";
+import api from "@/public/static/images/api.png";
+import git from "@/public/static/images/git.png";
+import express from "@/public/static/images/express.png";
+import aws from "@/public/static/images/aws.png";
 // import figma from "../../public/assets/skills/figma.png";
 import Image from "next/image";
 import Timeline from "./Timeline";
@@ -46,7 +46,7 @@ const skillsArray = [
 const Skills = () => {
   return (
     <>
-      <h1 className="text-center container font-bold text-3xl">
+      <h1 className="text-center font-semibold text-2xl">
         Skills & Experience
       </h1>
 
@@ -57,7 +57,7 @@ const Skills = () => {
             {skillsArray.map((skill, index) => (
               <>
                 <div>
-                  <div key={index} className={` md:p-3 p-4 `}>
+                  <div key={index} className={` md:p-3 p-2 `}>
                     <Image
                       className="m-auto"
                       src={skill.image}
