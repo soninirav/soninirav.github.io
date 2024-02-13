@@ -34,7 +34,7 @@ const Header = (): React.ReactNode => {
       <nav
         className={`md:border-b md:border-b-transparent backdrop-blur-xl md:mb-5 md:px-5 md:py-3`}
       >
-        <div className="md:flex md:flex-wrap md:justify-between ">
+        <div className="md:flex md:flex-wrap md:justify-around ">
           <div className="flex justify-between mx-5 my-3 md:m-0 items-center">
             {/* Logo */}
             {!isOpen ? (
