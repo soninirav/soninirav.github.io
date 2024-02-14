@@ -50,7 +50,10 @@ export function Contact() {
 
   return (
     <>
-      <h1 className="text-center pt-10 font-medium text-xl md:font-semibold md:text-2xl">
+      <h1
+        id="contact"
+        className="text-center pt-10 font-medium text-xl md:font-semibold md:text-2xl"
+      >
         Contact Me
       </h1>
       <div className="p-10 md:max-w-screen-sm m-auto">

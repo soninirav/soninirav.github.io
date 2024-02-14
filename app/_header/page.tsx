@@ -9,12 +9,12 @@ import { Button } from "@/components/ui/button";
 const Header = (): React.ReactNode => {
   const [isOpen, setIsOpen] = useState(false);
   const navLinks = [
-    { label: "Home", href: "/" },
-    { label: "Experience", href: "/" },
-    { label: "Skills", href: "/" },
-    { label: "Projects", href: "/" },
-    { label: "Resume", href: "/" },
-    { label: "Contact", href: "/" },
+    { label: "Home", href: "#home" },
+    { label: "Experience", href: "#experience" },
+    { label: "Skills", href: "#skills" },
+    { label: "Projects", href: "#projects" },
+    { label: "Resume", href: "#resume" },
+    { label: "Contact", href: "#contact" },
   ];
 
   useEffect(() => {

@@ -8,7 +8,10 @@ const Resume = () => {
     "https://drive.google.com/file/d/1j5_33MK4Z2XCcCSnCyMb1j0A9HnNqZMF/view?usp=sharing";
   return (
     <>
-      <h1 className="text-center pt-10 bg-white font-medium text-xl md:font-semibold md:text-2xl">
+      <h1
+        id="resume"
+        className="text-center pt-10 bg-white font-medium text-xl md:font-semibold md:text-2xl"
+      >
         Resume
       </h1>
       <div className="flex flex-col-1 justify-center pt-5 pb-16 bg-white md:py-5 md:pb-16">

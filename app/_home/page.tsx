@@ -4,7 +4,10 @@ import Profile from "@/public/static/images/profile.png";
 
 const Home = () => {
   return (
-    <div className="flex px-10 py-10 justify-center flex-wrap-reverse md:flex-cols-2 md:justify-center md:px-0 md:py-24">
+    <div
+      id="home"
+      className="flex px-10 py-10 justify-center flex-wrap-reverse md:flex-cols-2 md:justify-center md:px-0 md:py-24"
+    >
       <div className="" style={{ width: 500, height: 400 }}>
         <h1 className="text-2xl font-bold md:text-4xl md:font-bold">
           👋 Hey,{" "}

@@ -46,7 +46,10 @@ const skillsArray = [
 const Skills = () => {
   return (
     <>
-      <h1 className="text-center font-medium text-xl md:font-semibold md:text-2xl">
+      <h1
+        id="skills"
+        className="text-center font-medium text-xl md:font-semibold md:text-2xl"
+      >
         Skills & Experience
       </h1>
 
