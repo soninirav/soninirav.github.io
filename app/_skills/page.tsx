@@ -48,7 +48,7 @@ const Skills = () => {
     <>
       <h1
         id="skills"
-        className="text-center font-medium text-xl md:font-semibold md:text-2xl"
+        className="text-center scroll-m-16 font-medium text-xl md:font-semibold md:text-2xl"
       >
         Skills & Experience
       </h1>
@@ -78,8 +78,8 @@ const Skills = () => {
           </div>
         </div>
         {/* Experience */}
-        <div id="experience">
-          <div className="py-7 md:py-7 md:px-7 ">
+        <div id="experience" className="scroll-m-32">
+          <div className="py-7 md:py-7 md:px-7">
             <Timeline />
           </div>
         </div>

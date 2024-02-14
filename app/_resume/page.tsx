@@ -10,7 +10,7 @@ const Resume = () => {
     <>
       <h1
         id="resume"
-        className="text-center pt-10 bg-white font-medium text-xl md:font-semibold md:text-2xl"
+        className="text-center scroll-m-14 pt-10 bg-white font-medium text-xl md:font-semibold md:text-2xl"
       >
         Resume
       </h1>
