@@ -78,7 +78,7 @@ const Skills = () => {
           </div>
         </div>
         {/* Experience */}
-        <div>
+        <div id="experience">
           <div className="py-7 md:py-7 md:px-7 ">
             <Timeline />
           </div>

@@ -34,8 +34,11 @@ const Header = (): React.ReactNode => {
       <nav
         className={`md:border-b md:border-b-transparent backdrop-blur-xl md:mb-5 md:px-5 md:py-3`}
       >
-        <div className="md:flex md:flex-wrap md:justify-around ">
-          <div className="flex justify-between mx-5 my-3 md:m-0 items-center">
+        <div className="md:flex md:flex-nowrap md:justify-center ">
+          <div
+            style={{ width: 350 }}
+            className="flex justify-between mx-5 my-3 md:m-0 items-center"
+          >
             {/* Logo */}
             {!isOpen ? (
               <Link href="/">
@@ -51,7 +54,7 @@ const Header = (): React.ReactNode => {
             )}
 
             <Button
-              className="block md:hidden bg-transparant focus:outline-none focus:bg-transparent"
+              className="block md:hidden justify-end bg-transparant focus:outline-none focus:bg-transparent"
               onClick={() => setIsOpen((prevVal) => !prevVal)}
             >
               {!isOpen ? (
@@ -69,7 +72,7 @@ const Header = (): React.ReactNode => {
               <Link
                 href={currentLink.href}
                 key={index}
-                className="font-normal text-base opacity-65 hover:text-blue-500 hover:opacity-100 hover:font-semibold"
+                className="font-medium text-base text-[#656e7a] hover:text-[#4f46e5]"
               >
                 {currentLink.label}
               </Link>
