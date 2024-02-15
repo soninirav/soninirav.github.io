@@ -67,6 +67,7 @@ export function Contact() {
                   <FormLabel>Subject</FormLabel>
                   <FormControl>
                     <Input
+                      className="shadow-md"
                       placeholder="Enter Your Subject Here ..."
                       {...field}
                     />
@@ -84,6 +85,7 @@ export function Contact() {
                   <FormControl>
                     <Textarea
                       rows={7}
+                      className="shadow-md"
                       placeholder="Enter Your Message Here ..."
                       {...field}
                     />
@@ -94,7 +96,7 @@ export function Contact() {
             />
             <Button
               type="submit"
-              className="bg-[#4f46e5] text-white hover:bg-blue-900 hover:text-white"
+              className="bg-[#4f46e5] shadow-2xl text-white hover:bg-blue-900 hover:text-white"
             >
               <Send className="mr-2 h-4 w-4" />
               Send Mail

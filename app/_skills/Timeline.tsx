@@ -9,7 +9,7 @@ function Component() {
             <td>
               <h1 className="font-bold">2022</h1>
             </td>
-            <td className="bg-white p-3 rounded-lg shadow-md">
+            <td className="bg-white p-3 rounded-lg shadow-lg">
               <h1 className="font-bold">System Engineer</h1>
               <span className="text-sm text-[#94a3b8] font-semibold">
                 Tata Consultancy Services
@@ -20,7 +20,7 @@ function Component() {
             <td>
               <h1 className="font-bold">2021</h1>
             </td>
-            <td className="bg-white p-3 rounded-lg shadow-md">
+            <td className="bg-white p-3 rounded-lg shadow-lg">
               <h1 className="font-bold">Assistant System Engineer</h1>
               <span className="text-sm text-[#94a3b8] font-semibold">
                 Tata Consultancy Services
@@ -31,7 +31,7 @@ function Component() {
             <td>
               <h1 className="font-bold">2020</h1>
             </td>
-            <td className="bg-white p-3 rounded-lg shadow-md">
+            <td className="bg-white p-3 rounded-lg shadow-lg">
               <h1 className="font-bold">Assistant System Engineer - Trainee</h1>
               <span className="text-sm text-[#94a3b8] font-semibold">
                 Tata Consultancy Services

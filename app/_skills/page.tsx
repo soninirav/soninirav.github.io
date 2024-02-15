@@ -53,7 +53,7 @@ const Skills = () => {
         Skills & Experience
       </h1>
 
-      <div className="md:flex md:flex-col-2 md:p-10 md:justify-center">
+      <div className="md:flex md:p-10 md:justify-center">
         {/* Skills */}
         <div>
           <div className="grid grid-cols-4 p-10 md:grid md:grid-cols-4 md:px-0  gap-5">
