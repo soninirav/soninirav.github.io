@@ -37,7 +37,7 @@ const Header = (): React.ReactNode => {
         <div className="md:flex md:flex-nowrap md:justify-center ">
           <div
             style={{ width: 350 }}
-            className="flex justify-between mx-5 my-3 md:m-0 items-center"
+            className="flex justify-between bg-transparent mx-5 my-3 md:m-0 items-center"
           >
             {/* Logo */}
             {!isOpen ? (
@@ -58,9 +58,9 @@ const Header = (): React.ReactNode => {
               onClick={() => setIsOpen((prevVal) => !prevVal)}
             >
               {!isOpen ? (
-                <HiMenuAlt4 size={30} color="black" />
+                <HiMenuAlt4 size={30} color="black" className="bg-none" />
               ) : (
-                <RiCloseFill size={30} color="black" />
+                <RiCloseFill size={30} color="black" className="bg-none" />
               )}
             </Button>
           </div>
