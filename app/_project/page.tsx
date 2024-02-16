@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import Aboot from "@/public/static/images/about04.png";
@@ -18,6 +19,7 @@ const projectsArray = [
     description:
       "Efficient issue tracker web app with create, edit, delete, status tracking, filtering, pagination, Google authentication, built with Radix UI, Next.js, Prisma, and MySQL.",
     icon: <Bug size={70} className="p-3 my-auto" />,
+    githubURL: "https://github.com/soninirav/issue-tracker",
     data: [],
   },
   {
@@ -25,19 +27,21 @@ const projectsArray = [
     description:
       "A Hotel Management System using React, React Query with Supabase for backend. Key features include room management, bookings, check-in/check-out, and an intuitive Dashboards.",
     icon: <Hotel size={70} className="p-3 my-auto" />,
+    githubURL: "https://the-wild-oasis-webapplication.netlify.app/",
     data: [],
   },
   // {
   //   projectName: "UsePopCorn",
   //   description: "the ultimate issue tracker",
   //   icon: <Popcorn size={70} className="p-3 my-auto" />,
-  //   data: [],
+  //   githubURL:"",data: [],
   // },
   {
     projectName: "Auction App",
     description:
       "Built an auction web app with Django, offering intuitive CRUD operations, strict bidding validation, dynamic commenting, and watchlist functionality.",
     icon: <Gavel size={70} className="p-3 my-auto" />,
+    githubURL: "https://github.com/soninirav/Auction",
     data: [],
   },
   {
@@ -45,6 +49,7 @@ const projectsArray = [
     description:
       "Developed a Q&A web app fostering engaging discussions with features like asking questions, commenting on answers, trending questions exploration, and sign-in/sign-up functionalities",
     icon: <MessageSquareText size={70} className="p-3 my-auto" />,
+    githubURL: "https://github.com/soninirav/qna_project",
     data: [],
   },
   {
@@ -52,6 +57,7 @@ const projectsArray = [
     description:
       "A React web app with Redux for quiz functionality, featuring constant score updates, correct answer highlighting, and a highest score feature.",
     icon: <ClipboardList size={70} className="p-3 my-auto" />,
+    githubURL: "https://github.com/soninirav/quiz-app",
     data: [],
   },
   {
@@ -59,6 +65,7 @@ const projectsArray = [
     description:
       "An all-in-one notes application featuring CRUD operations, bookmarking, archiving, labeling, user authentication (signup/login), and built using Django.",
     icon: <Notebook size={70} className="p-3 my-auto" />,
+    githubURL: "https://github.com/soninirav/Notes",
     data: [],
   },
 ];
@@ -95,7 +102,11 @@ const Project = () => {
                   </h1>
                 </div>
                 <div>
-                  <Button variant={"ghost"} className="text-[#4f46e5] my-10">
+                  <Button
+                    variant={"ghost"}
+                    className="text-[#4f46e5] my-10"
+                    onClick={() => open(project.githubURL)}
+                  >
                     View
                   </Button>
                 </div>

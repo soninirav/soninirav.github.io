@@ -5,7 +5,7 @@ import { Eye } from "lucide-react";
 
 const Resume = () => {
   const resumeURL =
-    "https://drive.google.com/file/d/1j5_33MK4Z2XCcCSnCyMb1j0A9HnNqZMF/view?usp=sharing";
+    "https://drive.google.com/file/d/14drwl2rnkJYT7v_BYBkpiNgB9aF0mzRe/view?usp=sharing";
   return (
     <>
       <h1
